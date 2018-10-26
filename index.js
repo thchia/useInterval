@@ -1,5 +1,4 @@
 'use strict'
-let { useState } = require('react')
 
 function useInterval(cb, interval = 1000) {
   useEffect(() => {
